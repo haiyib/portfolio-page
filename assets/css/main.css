@@ -362,7 +362,7 @@ h3 a:hover {
 .dynamic-gradient,
 footer {
   font-weight: bold;
-  background: linear-gradient(to right, navy, darkgreen, darkred);
+  background: linear-gradient(to right, #2563eb, #7c3aed, #06b6d4);
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
