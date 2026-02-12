@@ -362,12 +362,11 @@ h3 a:hover {
 .dynamic-gradient,
 footer {
   font-weight: bold;
-  background: linear-gradient(to right, #2563eb, #7c3aed, #06b6d4);
+  background: linear-gradient(to right, #93c5fd, #3b82f6, #38bdf8);
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: gradient-animation 10s linear infinite;
 }
 
 .date {
