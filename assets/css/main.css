@@ -429,7 +429,7 @@ footer {
 
   .tagline {
   margin-top: -2rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 0.95rem;
   color: rgb(69, 68, 68);
