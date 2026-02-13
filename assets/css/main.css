@@ -362,11 +362,14 @@ h3 a:hover {
 .dynamic-gradient,
 footer {
   font-weight: bold;
-  background: linear-gradient(to right, #93c5fd, #3b82f6, #38bdf8);
+  background: linear-gradient(to right, #1d4ed8, #2563eb, #0ea5e9);
   background-size: 200% auto;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+.dynamic-gradient {
+  animation: gradient-animation 3s linear infinite;
 }
 
 .date {
@@ -423,6 +426,14 @@ footer {
   .bio {
     width: 400px;
   }
+
+  .tagline {
+  margin-top: -2rem;
+  margin-bottom: 0;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.95rem;
+  color: rgb(69, 68, 68);
+}
 
   .box {
     height: 480px;
