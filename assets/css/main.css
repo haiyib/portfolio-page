@@ -298,22 +298,49 @@ footer {
   margin-left: 0;
 }
 
+.bio-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
 .bio {
   margin-top: 0;
   line-height: 1.5rem;
+  flex: 1;
+  max-width: 500px;
+}
+
+.bio-photo {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-left: auto;
+  margin-right: 6rem;
 }
 
 #reporter {
   font-weight: bold;
 }
 
-.contact {
-  border-width: 0.08rem;
+.social-icons {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
-.contact img {
-  width: 90%;
+.social-icons a {
+  color: black;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #2563eb;
 }
 
 .row [class^="col-7"] {
@@ -423,8 +450,13 @@ footer {
     margin-bottom: 2rem;
   }
 
-  .bio {
-    width: 400px;
+  .bio-section {
+    flex-direction: column-reverse;
+  }
+
+  .bio-photo {
+    width: 280px;
+    height: 280px;
   }
 
   .tagline {
@@ -452,8 +484,13 @@ footer {
     padding-left: 0;
   }
 
-  .bio {
-    width: 500px;
+  .bio-section {
+    flex-direction: row;
+  }
+
+  .bio-photo {
+    width: 280px;
+    height: 280px;
   }
 
   .col-7,
@@ -478,7 +515,7 @@ footer {
 @media only screen and (min-width: 1280px) {
   html,
   body {
-    width: 75%;
+    width: 85%;
   }
   h1 {
     font-size: 4rem;
@@ -492,8 +529,9 @@ footer {
     margin-top: 4rem;
   }
 
-  .bio {
-    width: 500px;
+  .bio-photo {
+    width: 280px;
+    height: 280px;
   }
 
   .col-5 {
