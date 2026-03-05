@@ -523,20 +523,9 @@ footer {
     margin-bottom: 0;
   }
 
-  .row.first {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .row.first .col-7,
-  .row.first .col-5 {
-    width: 100%;
-    float: none;
-  }
-
   .navLinks {
     margin-top: 0.5rem;
-    float: none;
+    float: left;
     padding-left: 0;
   }
 
