@@ -157,6 +157,39 @@ footer {
   vertical-align: middle;
 }
 
+.html {
+  background-color: #e34c26;
+  border-radius: 3px;
+  padding: 1.75px;
+  padding-left: 5.2px;
+  padding-right: 5.2px;
+  margin-right: 0.7%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.css {
+  background-color: #264de4;
+  border-radius: 3px;
+  padding: 1.75px;
+  padding-left: 5.2px;
+  padding-right: 5.2px;
+  margin-right: 0.7%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.javascript {
+  background-color: #b8860b;
+  border-radius: 3px;
+  padding: 1.75px;
+  padding-left: 5.2px;
+  padding-right: 5.2px;
+  margin-right: 0.7%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
 .QGIS {
   background-color: #65915b;
   border-radius: 3px;
@@ -306,6 +339,18 @@ footer {
   padding: 10px;
   object-fit: cover;
   transition: transform 0.2s ease;
+}
+
+.others-writing .date {
+  margin-top: 1rem;
+}
+
+.publication {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-style: italic;
 }
 
 .others-video .box {
