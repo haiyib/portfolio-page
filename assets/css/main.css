@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 img {
@@ -15,7 +15,7 @@ article img {
 }
 
 h1 {
-  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   margin-top: 2rem;
   font-size: 3rem;
 }
@@ -245,6 +245,39 @@ footer {
   vertical-align: middle;
 }
 
+.ap {
+  background-color: #c0001a;
+  border-radius: 3px;
+  padding: 1.75px;
+  padding-left: 5.2px;
+  padding-right: 5.2px;
+  margin-right: 0.7%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.excel {
+  background-color: #1d6f42;
+  border-radius: 3px;
+  padding: 1.75px;
+  padding-left: 5.2px;
+  padding-right: 5.2px;
+  margin-right: 0.7%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.foia {
+  background-color: #5a4fcf;
+  border-radius: 3px;
+  padding: 1.75px;
+  padding-left: 5.2px;
+  padding-right: 5.2px;
+  margin-right: 0.7%;
+  line-height: 100%;
+  vertical-align: middle;
+}
+
 .data .box {
   height: 410px;
   border: 1.2px solid #b6b6ab;
@@ -411,6 +444,7 @@ footer {
   width: 1.4rem;
 }
 
+#projects,
 #data,
 #writing,
 #video {
@@ -421,6 +455,10 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding-right: 2rem;
+}
+
+.others-writing .col-6 {
+  margin: 0.5rem 1%;
 }
 
 @media only screen and (min-width: 300px) {
